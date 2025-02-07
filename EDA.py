@@ -118,7 +118,7 @@ def print_distribution_stats(train_df):
     categorical_features = ['Gender', 'Category', 'Size', 'Season', 
                           'Subscription Status', 'Payment Method', 
                           'Shipping Type', 'Discount Applied',
-                          'Promo Code Used', 'Preferred Payment Method','Color']
+                          'Promo Code Used', 'Preferred Payment Method','Frequency of Purchases']
     
     for feature in categorical_features:
         print(f"\n{feature}:")
